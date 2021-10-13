@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Animation.Design.BottomSheetDialog"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#B18888"
+    android:orientation="vertical"
+    android:padding="9dp">
+
+    <TextView
+        android:id="@+id/title_crime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crime Title" />
+
+    <TextView
+        android:id="@+id/date_crime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Crime Date" />
+
+    <Button
+        android:id="@+id/btnPolice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact Police"
+        android:typeface="monospace"
+        app:icon="@android:drawable/stat_sys_phone_call_forward"
+        app:rippleColor="@color/teal_200" />
+</LinearLayout>

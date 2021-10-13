@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CrimeReportimg</string>
+    <string name="date_picker_title">Crime Date</string>
+    <string name="new_crime">New Crime</string>
+    <string name="show_subtitle">Show Subtitle</string>
+    <string name="Hide_subtitle">Hide Subtitle</string>
+    <string name="subtitle_format">%1$d Crimes </string>
+</resources>
